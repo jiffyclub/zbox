@@ -13,6 +13,10 @@ zbox
     :target: https://pypi.python.org/pypi/zbox/
     :alt: Wheel Status
 
+.. image:: https://travis-ci.org/jiffyclub/zbox.svg?branch=master
+    :target: https://travis-ci.org/jiffyclub/zbox
+    :alt: Travis-CI Status
+
 zbox is a tiny library to help me use toolz_ and cytoolz_.
 I frequently use ``toolz`` and would like to use ``cytoolz`` if it's
 available, but don't want to put a ``try``/``except`` in
