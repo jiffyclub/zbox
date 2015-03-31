@@ -1,4 +1,4 @@
-version = __version__ = '1.1.0dev'
+version = __version__ = '1.2.0'
 
 try:
     import cytoolz as toolz
