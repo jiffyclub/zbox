@@ -40,5 +40,16 @@ Usage
 If cytoolz_ is installed ``toolz`` will be ``cytoolz``,
 otherwise it will be ``toolz``.
 
+gen
+~~~
+
+.. code::
+
+    from zbox import gen
+
+``gen`` is a function that converts any iterable into a Python
+generator object. I use this with Pandas, which sometimes doesn't
+expand iterables unless they are first converted to a generator.
+
 .. _toolz: http://toolz.readthedocs.org/
 .. _cytoolz: https://github.com/pytoolz/cytoolz/
