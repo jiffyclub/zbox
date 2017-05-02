@@ -3,16 +3,16 @@ import types
 import pytest
 
 try:
+    import toolz
+except ImportError:
+    pass
+
+try:
     import cytoolz as toolz
 except ImportError:
     HAVE_CYTOOLZ = False
 else:
     HAVE_CYTOOLZ = True
-
-try:
-    import toolz
-except ImportError:
-    pass
 
 
 @pytest.mark.skipif(not HAVE_CYTOOLZ, reason='requires cytoolz')
