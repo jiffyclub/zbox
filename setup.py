@@ -8,7 +8,7 @@ with open('README.rst', 'r') as f:
 
 setup(
     name='zbox',
-    version='1.1.0dev',
+    version='1.3.0',
     description=(
         'Get cytoolz or toolz, whatever\'s around'),
     long_description=long_description,
