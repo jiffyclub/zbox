@@ -1,15 +1,15 @@
 zbox
 ====
 
-.. image:: https://pypip.in/version/zbox/badge.svg
+.. image:: https://img.shields.io/pypi/v/zbox.svg
     :target: https://pypi.python.org/pypi/zbox/
     :alt: Latest Version
 
-.. image:: https://pypip.in/py_versions/zbox/badge.svg
+.. image:: https://img.shields.io/pypi/pyversions/zbox.svg
     :target: https://pypi.python.org/pypi/zbox/
     :alt: Supported Python versions
 
-.. image:: https://pypip.in/wheel/zbox/badge.svg
+.. image:: https://img.shields.io/pypi/wheel/zbox.svg
     :target: https://pypi.python.org/pypi/zbox/
     :alt: Wheel Status
 
